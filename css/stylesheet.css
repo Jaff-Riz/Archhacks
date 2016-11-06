@@ -50,3 +50,16 @@ h1 {
   top: 100px;
   margin: auto;
 }
+#yaySecret2 {
+  position: absolute;
+  z-index:999;
+  bottom: 10px;
+  right: 50px;
+  margin: auto;
+}
+#yaySecret3 {
+  position: absolute;
+  z-index:999;
+  right: 10px;
+  margin: auto;
+}
