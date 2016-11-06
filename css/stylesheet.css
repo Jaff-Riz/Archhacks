@@ -48,4 +48,5 @@ h1 {
   position: absolute;
   z-index:999;
   top: 100px;
+  margin: auto;
 }
