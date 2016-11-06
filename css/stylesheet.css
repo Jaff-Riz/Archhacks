@@ -48,6 +48,7 @@ h1 {
   position: absolute;
   z-index:999;
   top: 100px;
+  left: 0px;
   margin: auto;
 }
 #yaySecret2 > img {
