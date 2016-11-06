@@ -44,20 +44,20 @@ h1 {
 .divider {
   height: 10px;
 }
-#yaySecret {
+#yaySecret > img {
   position: absolute;
   z-index:999;
   top: 100px;
   margin: auto;
 }
-#yaySecret2 {
+#yaySecret2 > img {
   position: absolute;
   z-index:999;
   top: 10px;
   right: 0px;
   margin: auto;
 }
-#yaySecret3 {
+#yaySecret3 > img {
   position: absolute;
   z-index:999;
   right: 10px;
