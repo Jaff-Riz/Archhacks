@@ -16,7 +16,7 @@
   <input type="text" class="form-fields" name="pillsDay" placeholder="Number of Days"><br><br>  
 </form>
 
-<button onclick="myFunction()" class="button">Try it</button>
+<button onclick="myFunction()" class="button">Calculate</button>
 
 <div class="divider"></div>
 <div class="divider"></div>
@@ -26,11 +26,13 @@
 <script>
   function myFunction()
   {
-  
   var x = document.getElementById("frm1");
   var total = x.elements[1].value * x.elements[2].value;
   var strTotal = "You need to buy " + total + " pills of " + x.elements[0].value; 
   document.getElementById("demo").innerHTML = strTotal;
+  var cal = ics();
+  cal.addEvent('Medicine Time', '', '', '11/8/2016', '8/7/2013');
+  cal.addEvent('Medicine Time', '', '', '11/9/2016 5:30 pm', '8/9/2016 6:00 pm');
   }
 </script>
 
