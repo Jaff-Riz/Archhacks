@@ -6,6 +6,8 @@
   <title>r3mind.me</title>
 <link href="https://fonts.googleapis.com/css?family=Erica+One|Rokkitt" rel="stylesheet">
 <link href="/css/stylesheet.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="ics/ics.min.js"></script>
 </head>
 <body>
   <h1 class="main">Having trouble managing your medication?</h1>
@@ -22,7 +24,7 @@
 <div class="divider"></div>
 
   <span id="demo"></span> 
-  <button class="button"></button>
+  <button class="button">Download .ics file</button>
 
 <script>
   function myFunction()
@@ -34,7 +36,7 @@
   var cal = ics();
   cal.addEvent('Medicine Time', '', '', '11/8/2016', '8/7/2013');
   cal.addEvent('Medicine Time', '', '', '11/9/2016 5:30 pm', '8/9/2016 6:00 pm');
-  <button><a href="javascript:cal.download()">Download .ics File</a></button>
+  <button><a href="javascript:cal.download()"></a></button>
   }
 </script>
 
