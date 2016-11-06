@@ -24,7 +24,7 @@
 <div class="divider"></div>
 
   <span id="demo"></span> 
-  <button class="button">Download .ics file</button>
+  <button class="button" id="toggly" style="display: hidden;"><a id="downloadCalendar" href="">Download .ics file</a></button>
 
 <script>
   function myFunction()
@@ -36,7 +36,9 @@
   var cal = ics();
   cal.addEvent('Medicine Time', '', '', '11/8/2016', '8/7/2013');
   cal.addEvent('Medicine Time', '', '', '11/9/2016 5:30 pm', '8/9/2016 6:00 pm');
-  <button><a href="javascript:cal.download()"></a></button>
+  document.getElementById("toggly").element.Style = strTotal;
+  document.getElementById("downloadCalendar").innerHTML = strTotal;
+  var downloadLink = javascript:cal.download();
   }
 </script>
 
