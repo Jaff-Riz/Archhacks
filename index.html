@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+<link href="https://fonts.googleapis.com/css?family=Erica+One|Rokkitt" rel="stylesheet">
+<!--<link href="/css?family=Erica+One|Rokkitt" rel="stylesheet">-->
+</head>
+<body>
+  <h1 class="main">Having trouble managing your medication?</h1>
+  <p>Look no Further! Enter your prescription details below</p>
+  <form id="frm1">
+  <input type="text" class="form-fields" name="dname" placeholder="Enter Medicine Name"><br><br>
+  <input type="text" class="form-fields" name="pillsPerDay" placeholder="Pills Prescribed per Day"><br><br>
+  <input type="text" class="form-fields" name="pillsDay" placeholder="Number of Days"><br><br>  
+</form>
+
+<button onclick="myFunction()" class="button">Try it</button>
+
+<div class="divider"></div>
+<div class="divider"></div>
+
+  <span id="demo"></span> 
+
+<script>
+  function myFunction()
+  {
+  
+  var x = document.getElementById("frm1");
+  var total = x.elements[1].value * x.elements[2].value;
+  var strTotal = "You need to buy " + total + " pills of " + x.elements[0].value; 
+  document.getElementById("demo").innerHTML = strTotal;
+  }
+</script>
+
+</body>  
